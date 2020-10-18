@@ -128,6 +128,7 @@ build_signatures! {
     parse_url => ParseUrlFn,
     starts_with => StartsWithFn,
     ends_with => EndsWithFn,
+    parse_syslog => ParseSyslogFn,
 }
 
 /// A parameter definition accepted by a function.

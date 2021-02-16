@@ -304,6 +304,7 @@ sources = [
   "sources-tls",
   "sources-vector",
   "sources-kubernetes-logs",
+  "sources-eventstoredb"
 ]
 sources-apache_metrics = []
 sources-aws_kinesis_firehose = ["base64", "sources-tls", "warp"]
@@ -327,6 +328,7 @@ sources-tls = []
 sources-vector = ["listenfd" ,"sources-tls"]
 sources-kubernetes-logs = ["kubernetes", "transforms-merge", "transforms-regex_parser", "file-source"]
 sources-utils-unix = []
+sources-eventstoredb = []
 
 # Transforms
 transforms = [

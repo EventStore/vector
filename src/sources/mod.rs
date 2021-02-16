@@ -7,6 +7,8 @@ pub mod apache_metrics;
 pub mod aws_kinesis_firehose;
 #[cfg(feature = "sources-docker")]
 pub mod docker;
+#[cfg(feature = "sources-eventstoredb")]
+pub mod eventstoredb;
 #[cfg(feature = "sources-file")]
 pub mod file;
 #[cfg(feature = "sources-generator")]
